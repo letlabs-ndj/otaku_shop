@@ -16,7 +16,7 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 
 # Build the application
-ENV NEXT_PUBLIC_API_URL=http://localhost:3001
+# Note: Environment variables are set at runtime via docker-compose
 RUN pnpm run build
 
 EXPOSE 3000

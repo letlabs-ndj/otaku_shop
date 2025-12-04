@@ -1,6 +1,16 @@
+// Get API URL - use server-side URL in Docker, client-side URL in browser
+const getApiUrl = () => {
+  // Server-side (Docker container or SSR)
+  if (typeof window === "undefined") {
+    return process.env.API_URL || process.env.NEXT_PUBLIC_API_URL || "http://backend:3001"
+  }
+  // Client-side (browser)
+  return process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001"
+}
+
 export const API_CONFIG = {
-  // Change this to your backend URL
-  baseUrl: process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001",
+  // Dynamically determine the base URL based on context
+  baseUrl: getApiUrl(),
 
   // Endpoints
   endpoints: {
