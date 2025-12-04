@@ -2,31 +2,38 @@
   "products": [
     {
       "id": 1,
-      "name": "Doigts de sukuna",
+      "name": "Pull otaku",
       "price": 25,
-      "image": "http://localhost:3001/uploads/product-1764872725173-993599358.jpg",
-      "category": "Accessories"
+      "image": "http://localhost:3001/uploads/product-1764886082612-214474053.jpg",
+      "category": "Figures"
     },
     {
       "id": 2,
-      "name": "cdf",
-      "price": 456,
-      "image": "http://localhost:3001/uploads/product-1764874300509-27047161.webp",
-      "category": "Figures"
+      "name": "sac otaku",
+      "price": 50,
+      "image": "http://localhost:3001/uploads/product-1764886101904-573324117.jpg",
+      "category": "Accessories"
     },
     {
       "id": 3,
-      "name": "dsadqw",
-      "price": 546,
-      "image": "http://localhost:3001/uploads/product-1764874889506-729631002.jpg",
-      "category": "Figures"
+      "name": "Tapis otaku",
+      "price": 15,
+      "image": "http://localhost:3001/uploads/product-1764886239770-480037197.jpg",
+      "category": "Apparel"
     },
     {
       "id": 4,
-      "name": "rewrfwe",
-      "price": 45,
-      "image": "http://localhost:3001/uploads/product-1764875563942-267662805.jpg",
+      "name": "bracelet otaku",
+      "price": 10,
+      "image": "http://localhost:3001/uploads/product-1764886263767-390546506.jpg",
       "category": "Accessories"
+    },
+    {
+      "id": 5,
+      "name": "colier otaku",
+      "price": 15,
+      "image": "http://localhost:3001/uploads/product-1764886285207-173535133.jpg",
+      "category": "Figures"
     }
   ],
   "categories": [

@@ -42,13 +42,36 @@ The following directories are mounted as volumes to persist data:
 
 ## Environment Variables
 
-You can customize the setup by creating a `.env` file in the root directory:
+You can customize the setup by setting environment variables when running docker-compose:
 
-```env
-NEXT_PUBLIC_API_URL=http://localhost:3001
-PORT=3001
-NODE_ENV=production
+### For Local Development (default):
+```bash
+docker-compose up --build
 ```
+
+### For Remote Server Deployment:
+
+Set the environment variables to match your server's IP or domain:
+
+```bash
+FRONTEND_URL=http://185.217.125.37:3000 BACKEND_URL=http://185.217.125.37:3001 docker-compose up --build
+```
+
+Or create a `.env` file in the root directory:
+```env
+FRONTEND_URL=http://185.217.125.37:3000
+BACKEND_URL=http://185.217.125.37:3001
+```
+
+Then run:
+```bash
+docker-compose up --build
+```
+
+**Important**: 
+- `FRONTEND_URL` - The URL where your frontend is accessible (for CORS)
+- `BACKEND_URL` - The URL where your backend API is accessible (for browser requests)
+- Replace `185.217.125.37` with your actual server IP or domain
 
 ## Troubleshooting
 

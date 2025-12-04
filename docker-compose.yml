@@ -11,6 +11,8 @@ services:
     environment:
       - PORT=3001
       - NODE_ENV=production
+      # Allow CORS from frontend - set to your server IP or domain
+      - CORS_ORIGIN=${FRONTEND_URL:-http://localhost:3000}
     volumes:
       - ./backend/data:/app/data
       - ./backend/uploads:/app/uploads
@@ -28,8 +30,11 @@ services:
     environment:
       # Server-side API URL (for SSR/API routes) - uses Docker service name
       - API_URL=http://backend:3001
-      # Client-side API URL (for browser) - uses localhost or server IP
-      - NEXT_PUBLIC_API_URL=http://localhost:3001
+      # Client-side API URL (for browser) - set to your server IP or domain
+      # For remote server, use: http://YOUR_SERVER_IP:3001 or http://yourdomain.com:3001
+      - NEXT_PUBLIC_API_URL=${BACKEND_URL:-http://localhost:3001}
+      # Frontend URL for CORS configuration
+      - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
       - NODE_ENV=production
     depends_on:
       - backend

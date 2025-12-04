@@ -12,8 +12,16 @@ const __dirname = path.dirname(__filename)
 const app = express()
 const PORT = process.env.PORT || 3001
 
+// CORS configuration
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || process.env.FRONTEND_URL || "*",
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+}
+
 // Middleware
-app.use(cors())
+app.use(cors(corsOptions))
 app.use(express.json({ limit: "50mb" }))
 app.use("/uploads", express.static(path.join(__dirname, "uploads")))
 
