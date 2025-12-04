@@ -1,0 +1,78 @@
+{
+  "header": {
+    "shop": "Shop",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to the otaku paradise",
+    "title1": "EMBRACE YOUR",
+    "title2": "INNER OTAKU",
+    "description": "Discover exclusive anime merchandise, rare manga collectibles, and everything your otaku heart desires.",
+    "exploreCollection": "Explore Collection",
+    "newArrivals": "New Arrivals",
+    "scroll": "Scroll"
+  },
+  "animeShowcase": {
+    "subtitle": "Fuel Your Passion",
+    "title": "ANIME INSPIRATION"
+  },
+  "products": {
+    "badge": "Our Collection",
+    "title1": "Premium",
+    "title2": "Otaku",
+    "title3": "Merch",
+    "description": "Discover our carefully curated collection of anime figures, apparel, manga, and more.",
+    "searchPlaceholder": "Search products...",
+    "categories": "Categories",
+    "all": "All",
+    "showing": "Showing",
+    "productsText": "products",
+    "activeFilters": "Active filters:",
+    "clearAll": "Clear all",
+    "noProducts": "No products found",
+    "noProductsDesc": "Try adjusting your filters to find what you're looking for.",
+    "clearFilters": "Clear all filters",
+    "loading": "Loading products..."
+  },
+  "newsletter": {
+    "badge": "Join the community",
+    "title": "NEVER MISS A DROP",
+    "description": "Subscribe to our newsletter for exclusive releases, limited editions, and special otaku deals.",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "thanks": "Welcome to the ENO family!",
+    "checkInbox": "Thank you for subscribing! You'll be notified by email whenever we add new products.",
+    "disclaimer": "By subscribing, you agree to receive marketing emails. Unsubscribe anytime."
+  },
+  "newsletterPopup": {
+    "title": "Join the",
+    "titleHighlight": "Otaku",
+    "titleEnd": "Club",
+    "description": "Get exclusive drops, special discounts, and be the first to know about new arrivals!",
+    "placeholder": "your@email.com",
+    "subscribe": "Subscribe Now",
+    "disclaimer": "No spam, only otaku goodness. Unsubscribe anytime.",
+    "thanks": "Welcome to the ENO family!"
+  },
+  "footer": {
+    "description": "Your ultimate destination for premium anime merchandise and otaku essentials.",
+    "shop": "SHOP",
+    "allProducts": "All Products",
+    "newArrivals": "New Arrivals",
+    "bestSellers": "Best Sellers",
+    "sale": "Sale",
+    "support": "SUPPORT",
+    "contactUs": "Contact Us",
+    "shippingInfo": "Shipping Info",
+    "returns": "Returns & Exchanges",
+    "faq": "FAQ",
+    "legal": "LEGAL",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "copyright": "© 2025 Entre Nous Otakus. All rights reserved.",
+    "madeWith": "Made with ❤️ for otakus everywhere"
+  }
+}

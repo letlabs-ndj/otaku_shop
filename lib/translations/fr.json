@@ -1,0 +1,78 @@
+{
+  "header": {
+    "shop": "Boutique",
+    "collections": "Collections",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Bienvenue au paradis des otakus",
+    "title1": "RÉVÉLEZ VOTRE",
+    "title2": "ÂME D'OTAKU",
+    "description": "Découvrez des produits anime exclusifs, des mangas de collection rares et tout ce dont votre cœur d'otaku rêve.",
+    "exploreCollection": "Explorer la Collection",
+    "newArrivals": "Nouveautés",
+    "scroll": "Défiler"
+  },
+  "animeShowcase": {
+    "subtitle": "Nourrissez votre passion",
+    "title": "INSPIRATION ANIME"
+  },
+  "products": {
+    "badge": "Notre Collection",
+    "title1": "Produits",
+    "title2": "Otaku",
+    "title3": "Premium",
+    "description": "Découvrez notre collection soigneusement sélectionnée de figurines, vêtements, mangas et plus encore.",
+    "searchPlaceholder": "Rechercher des produits...",
+    "categories": "Catégories",
+    "all": "Tous",
+    "showing": "Affichage de",
+    "productsText": "produits",
+    "activeFilters": "Filtres actifs :",
+    "clearAll": "Tout effacer",
+    "noProducts": "Aucun produit trouvé",
+    "noProductsDesc": "Essayez d'ajuster vos filtres pour trouver ce que vous cherchez.",
+    "clearFilters": "Effacer tous les filtres",
+    "loading": "Chargement des produits..."
+  },
+  "newsletter": {
+    "badge": "Rejoignez la communauté",
+    "title": "NE RATEZ AUCUNE SORTIE",
+    "description": "Abonnez-vous à notre newsletter pour des sorties exclusives, des éditions limitées et des offres spéciales otaku.",
+    "placeholder": "Entrez votre email",
+    "subscribe": "S'abonner",
+    "thanks": "Bienvenue dans la famille ENO !",
+    "checkInbox": "Merci de vous être abonné ! Vous recevrez un email à chaque fois que nous ajoutons de nouveaux produits.",
+    "disclaimer": "En vous abonnant, vous acceptez de recevoir des emails marketing. Désabonnez-vous à tout moment."
+  },
+  "newsletterPopup": {
+    "title": "Rejoignez le Club",
+    "titleHighlight": "Otaku",
+    "titleEnd": "",
+    "description": "Obtenez des sorties exclusives, des remises spéciales et soyez le premier informé des nouveautés !",
+    "placeholder": "votre@email.com",
+    "subscribe": "S'abonner maintenant",
+    "disclaimer": "Pas de spam, que du bonheur otaku. Désabonnez-vous à tout moment.",
+    "thanks": "Bienvenue dans la famille ENO !"
+  },
+  "footer": {
+    "description": "Votre destination ultime pour des produits anime premium et les essentiels otaku.",
+    "shop": "BOUTIQUE",
+    "allProducts": "Tous les Produits",
+    "newArrivals": "Nouveautés",
+    "bestSellers": "Meilleures Ventes",
+    "sale": "Soldes",
+    "support": "SUPPORT",
+    "contactUs": "Nous Contacter",
+    "shippingInfo": "Info Livraison",
+    "returns": "Retours & Échanges",
+    "faq": "FAQ",
+    "legal": "LÉGAL",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Politique des Cookies",
+    "copyright": "© 2025 Entre Nous Otakus. Tous droits réservés.",
+    "madeWith": "Fait avec ❤️ pour les otakus du monde entier"
+  }
+}

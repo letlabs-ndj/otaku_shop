@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Demon Slayer Tanjiro Figure",
+      "price": 89.99,
+      "image": "/demon-slayer-tanjiro-anime-figure-collectible.jpg",
+      "category": "Figures"
+    },
+    {
+      "id": 2,
+      "name": "Attack on Titan Hoodie",
+      "price": 65.0,
+      "image": "/attack-on-titan-anime-hoodie-streetwear-black.jpg",
+      "category": "Apparel"
+    },
+    {
+      "id": 3,
+      "name": "Naruto Shippuden Manga Box Set",
+      "price": 199.99,
+      "image": "/naruto-manga-box-set-collection-books.jpg",
+      "category": "Manga"
+    },
+    {
+      "id": 4,
+      "name": "Jujutsu Kaisen Gojo Figure",
+      "price": 125.0,
+      "image": "/jujutsu-kaisen-gojo-satoru-anime-figure-white-hair.jpg",
+      "category": "Figures"
+    },
+    {
+      "id": 5,
+      "name": "One Piece Straw Hat Crew Poster",
+      "price": 24.99,
+      "image": "/one-piece-straw-hat-crew-anime-poster-colorful.jpg",
+      "category": "Posters"
+    },
+    {
+      "id": 6,
+      "name": "My Hero Academia Deku Backpack",
+      "price": 49.99,
+      "image": "/my-hero-academia-deku-green-backpack-anime.jpg",
+      "category": "Accessories"
+    },
+    {
+      "id": 7,
+      "name": "Chainsaw Man Pochita Plush",
+      "price": 34.99,
+      "image": "/chainsaw-man-pochita-plush-toy-cute-orange.jpg",
+      "category": "Plush"
+    },
+    {
+      "id": 8,
+      "name": "Dragon Ball Z Vegeta T-Shirt",
+      "price": 29.99,
+      "image": "/dragon-ball-z-vegeta-black-tshirt-anime-streetwear.jpg",
+      "category": "Apparel"
+    }
+  ],
+  "categories": ["Figures", "Apparel", "Manga", "Posters", "Accessories", "Plush"]
+}

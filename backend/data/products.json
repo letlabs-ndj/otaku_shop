@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Doigts de sukuna",
+      "price": 25,
+      "image": "http://localhost:3001/uploads/product-1764872725173-993599358.jpg",
+      "category": "Accessories"
+    },
+    {
+      "id": 2,
+      "name": "cdf",
+      "price": 456,
+      "image": "http://localhost:3001/uploads/product-1764874300509-27047161.webp",
+      "category": "Figures"
+    },
+    {
+      "id": 3,
+      "name": "dsadqw",
+      "price": 546,
+      "image": "http://localhost:3001/uploads/product-1764874889506-729631002.jpg",
+      "category": "Figures"
+    },
+    {
+      "id": 4,
+      "name": "rewrfwe",
+      "price": 45,
+      "image": "http://localhost:3001/uploads/product-1764875563942-267662805.jpg",
+      "category": "Accessories"
+    }
+  ],
+  "categories": [
+    "Figures",
+    "Apparel",
+    "Manga",
+    "Posters",
+    "Accessories",
+    "Plush"
+  ]
+}
