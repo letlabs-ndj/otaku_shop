@@ -24,6 +24,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
+      args:
+        # Pass build arguments - these are baked into the Next.js build
+        - NEXT_PUBLIC_API_URL=${BACKEND_URL:-http://localhost:3001}
+        - API_URL=http://backend:3001
     container_name: otaku-shop-frontend
     ports:
       - "3000:3000"
@@ -31,7 +35,7 @@ services:
       # Server-side API URL (for SSR/API routes) - uses Docker service name
       - API_URL=http://backend:3001
       # Client-side API URL (for browser) - set to your server IP or domain
-      # For remote server, use: http://YOUR_SERVER_IP:3001 or http://yourdomain.com:3001
+      # Note: This is also set at build time via build args
       - NEXT_PUBLIC_API_URL=${BACKEND_URL:-http://localhost:3001}
       # Frontend URL for CORS configuration
       - FRONTEND_URL=${FRONTEND_URL:-http://localhost:3000}
